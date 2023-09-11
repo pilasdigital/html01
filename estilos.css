@@ -1,0 +1,74 @@
+/* Selecctores de etiquetas HTML */
+body{
+	width: 900px;
+	margin: auto;
+	border: blue solid 1px;
+	padding: 0px 15px 0px 15px;
+}
+
+h1, h2{
+	background-color: pink;
+}
+
+p{
+	color: blue;
+}
+
+table{
+	width: 60%;
+	margin: auto;
+}
+
+table, th, td{
+	border-collapse:collapse;
+	
+}
+
+th, td{
+	padding: 5px;
+}
+
+/* Selectores tipo clase */
+.bordepuntoazul{
+	border: blue dotted 5px;
+}
+
+.borderayaroja{
+	border: red solid 1px;
+}
+
+/* Selectores tipo id */
+
+#experiencia01, #formacion01, #datos01{
+	border-bottom: red solid 3px;
+	background-color: lightyellow;
+}
+
+/*div{border: blue solid 1px;
+
+}*/
+
+
+.libro h3{
+	margin-top: 0px;
+	font-family: verdana;
+}
+
+.libro ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.libro ul span{
+	color: darkgreen;
+}
+
+
+/* sistemas de columnas por % */
+
+.col-12, .col-6, .col-4, .col-3{float: left;}
+
+.col-12{width:100%;}
+.col-6{width:50%;}
+.col-4{width: 33.3333%;}
+.col-3{width: 25%;}
