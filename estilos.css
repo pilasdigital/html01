@@ -1,8 +1,8 @@
 /* Selecctores de etiquetas HTML */
 body{
-	width: 900px;
+	max-width: 900px;
 	margin: auto;
-	border: blue solid 1px;
+	border: darkgreen; solid 1px;
 	padding: 0px 15px 0px 15px;
 }
 
@@ -11,7 +11,7 @@ h1, h2{
 }
 
 p{
-	color: blue;
+	color: black;
 }
 
 table{
